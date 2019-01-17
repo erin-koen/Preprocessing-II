@@ -182,7 +182,6 @@ img {
 @media (max-width:500px) {
   .container .nav-bar .navigation {
     flex-direction: column;
-    border: 1px solid red;
     padding-bottom: 0;
   }
 }
@@ -194,7 +193,6 @@ img {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
   }
 }
 .container .nav-bar .navigation nav a {
@@ -257,7 +255,6 @@ img {
   .home .content-section .img-content {
     width: 100%;
     padding: 0;
-    border: 1px solid red;
   }
 }
 .home .content-section .img-content img {
@@ -266,7 +263,6 @@ img {
 @media (max-width:500px) {
   .home .content-section .img-content img {
     margin: 0;
-    border: 1px solid red;
     width: 100%;
   }
 }
