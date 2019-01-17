@@ -168,6 +168,20 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.container .nav-bar .navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20.5px 0;
+}
+.container .nav-bar nav a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  padding: 2rem 2.2rem;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
