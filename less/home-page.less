@@ -22,6 +22,7 @@
     justify-content: space-between;
     @media @mobile {
       flex-direction: column;
+      
     }
    
     
@@ -30,7 +31,7 @@
       padding-right: 1%;
       @media @mobile {
         width: 100%;
-        padding: 0;
+        
       }
     }
 
@@ -47,6 +48,8 @@
         border-radius: 10px;
         @media @mobile {
           margin: 0;
+          border: 1px solid red;
+          width:100%;
         }
       }
     }
@@ -74,6 +77,10 @@
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+    @media @mobile{
+      width: 100%;
+      margin: 0;
+    }
 
     img {
       border-radius: 10px;
