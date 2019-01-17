@@ -7,9 +7,7 @@
   
   }
 
-  .header-image {
-
-  }
+  
 
   .header-copy {
     padding: 2.3rem 0 1.1rem 0;;
@@ -73,6 +71,11 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      .btn {
+        .btn-style(@button-color, 2rem);
+        // btn-style includes width: 100% - shouldn't this be 100% of .destination's width, which is 30%? Shouldn't I be matching the text here??
+      }
     }
+    
   }
 }// home
